@@ -133,14 +133,14 @@
                 <span class="record-number">01</span>
                 <div>
                   <strong>Crouzeix’s conjecture</strong>
-                  <small>Candidate proof · peer review pending</small>
+                  <small>The 2-spectral-set inequality</small>
                 </div>
               </li>
               <li>
                 <span class="record-number">02</span>
                 <div>
                   <strong>Open Hatano–Nelson chain</strong>
-                  <small>Connectedness threshold manuscript</small>
+                  <small>Pseudospectral connectedness threshold</small>
                 </div>
               </li>
             </ol>
@@ -182,32 +182,31 @@
             <h2 id="research-title">Current research projects</h2>
           </div>
           <p class="section-lead">
-            The entries below state the status and scope of each manuscript and
-            link to source files, computational materials where applicable, and
-            Lean 4 formalization.
+            The entries below link to LaTeX sources, computational materials
+            where applicable, and Lean 4 formalization.
           </p>
         </div>
 
         <article class="project project-crouzeix">
           <div class="project-index">
             <span>01 / Operator theory</span>
-            <span class="status status-review"
-              >Candidate proof · not peer reviewed</span
-            >
           </div>
 
           <div class="project-grid">
             <div class="project-copy">
-              <h3>Crouzeix’s conjecture: <em>a candidate proof</em></h3>
+              <h3>
+                Crouzeix’s conjecture:
+                <em>the 2-spectral-set inequality</em>
+              </h3>
               <p class="project-summary">
-                The manuscript proposes a proof that the numerical range is a
-                2-spectral set for every complex matrix. Peer review is pending.
-                The repository also contains a pinned Lean 4 formalization of
-                the matrix-polynomial statement and an axiom audit.
+                The manuscript develops a proof of the 2-spectral-set inequality
+                for the numerical range of every complex matrix. The repository
+                also contains a pinned Lean 4 formalization of the
+                matrix-polynomial statement and an axiom audit.
               </p>
 
               <div class="formula-block formula-block-crouzeix">
-                <span>Statement proposed in the manuscript</span>
+                <span>The 2-spectral-set inequality</span>
                 <img
                   src="assets/formula-crouzeix-bound.svg"
                   alt="The numerical range W of A consists of x star A x over unit vectors x. For every complex n-by-n matrix A and complex polynomial p, the norm of p of A is at most two times the maximum of the absolute value of p over W of A."
@@ -222,10 +221,6 @@
                 <div>
                   <dt>Formalization</dt>
                   <dd>Lean 4 sources and axiom audit</dd>
-                </div>
-                <div>
-                  <dt>Status</dt>
-                  <dd>Candidate proof · 2026</dd>
                 </div>
               </dl>
 
@@ -265,27 +260,6 @@
                 loading="lazy"
                 alt="The numerical range of the two-by-two nilpotent sharpness example is the closed unit disk, with the sole eigenvalue at zero; the displayed equality attains the constant two."
               />
-              <figcaption>
-                <strong>Sharpness example from the manuscript.</strong>
-                The disk boundary is generated from its exact parametrization at
-                1,201 uniform parameter values; the matrix, polynomial, and
-                equality case are displayed in the figure.
-                <span class="figure-scope"
-                  >Computer Modern labels are rendered by LaTeX.</span
-                >
-                <a
-                  href="https://github.com/jinshanmu/jinshanmu.github.io/blob/main/scripts/generate_research_figures.py"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Python source ↗</a
-                >
-                <a
-                  href="assets/figure-manifest.json"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Parameters ↗</a
-                >
-              </figcaption>
             </figure>
           </div>
         </article>
@@ -293,7 +267,6 @@
         <article class="project project-hatano">
           <div class="project-index">
             <span>02 / Pseudospectral analysis</span>
-            <span class="status">Manuscript prepared for J. Phys. A</span>
           </div>
 
           <div class="hatano-grid">
@@ -305,31 +278,6 @@
                 loading="lazy"
                 alt="Direct singular-value samples show six separated pseudospectral components at matrix order six and one connected component at matrix order seven for a equals one quarter and epsilon equals one hundredth."
               />
-              <figcaption>
-                <strong
-                  >Numerical illustration of the connectedness
-                  transition.</strong
-                >
-                Contours are direct float64 singular-value samples on a
-                561-by-361 grid; crosses are exact open-boundary eigenvalues.
-                The computation is not interval-certified, and the illustration
-                is not used as proof of the theorem.
-                <span class="figure-scope"
-                  >Latin Modern labels are rendered by LaTeX.</span
-                >
-                <a
-                  href="https://github.com/jinshanmu/jinshanmu.github.io/blob/main/scripts/generate_research_figures.py"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Python source ↗</a
-                >
-                <a
-                  href="assets/figure-manifest.json"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Parameters ↗</a
-                >
-              </figcaption>
             </figure>
 
             <div class="project-copy">
@@ -434,7 +382,7 @@
             <h3>Manuscripts</h3>
             <p>
               State the problem, hypotheses, and argument in versioned LaTeX
-              source, with the current review or submission status identified.
+              source, with theorem numbering and references preserved.
             </p>
           </article>
           <article>
