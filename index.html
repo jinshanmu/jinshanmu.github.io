@@ -6,39 +6,31 @@
     <meta name="theme-color" content="#f2eee6" />
     <meta name="color-scheme" content="light" />
 
-    <title>Shanmu Jin — Mathematical Research</title>
+    <title>Shanmu Jin — Operator Theory and Pseudospectra</title>
     <meta
       name="description"
-      content="Shanmu Jin studies operator theory, pseudospectra, non-Hermitian systems, and formal verification."
+      content="Research page of Shanmu Jin: operator theory, matrix pseudospectra, non-Hermitian spectral analysis, and Lean 4 formalization."
     />
     <link rel="canonical" href="https://jinshanmu.github.io/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://jinshanmu.github.io/" />
-    <meta property="og:title" content="Shanmu Jin — Mathematical Research" />
+    <meta
+      property="og:title"
+      content="Shanmu Jin — Operator Theory and Pseudospectra"
+    />
     <meta
       property="og:description"
-      content="Spectral questions, rigorous proofs, reproducible evidence."
+      content="Research manuscripts, computational materials, and documented Lean 4 formalizations."
     />
+    <meta name="twitter:card" content="summary" />
     <meta
-      property="og:image"
-      content="https://jinshanmu.github.io/assets/og.png"
+      name="twitter:title"
+      content="Shanmu Jin — Operator Theory and Pseudospectra"
     />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta
-      property="og:image:alt"
-      content="Shanmu Jin mathematical research, with abstract numerical-range contours."
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Shanmu Jin — Mathematical Research" />
     <meta
       name="twitter:description"
-      content="Spectral questions, rigorous proofs, reproducible evidence."
-    />
-    <meta
-      name="twitter:image"
-      content="https://jinshanmu.github.io/assets/og.png"
+      content="Research manuscripts, computational materials, and documented Lean 4 formalizations."
     />
 
     <link rel="stylesheet" href="styles.css" />
@@ -60,8 +52,8 @@
         "knowsAbout": [
           "Operator theory",
           "Pseudospectra",
-          "Non-Hermitian physics",
-          "Formal verification"
+          "Non-Hermitian spectral theory",
+          "Lean 4 formalization"
         ]
       }
     </script>
@@ -79,7 +71,7 @@
 
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="#research">Research</a>
-          <a href="#approach">Approach</a>
+          <a href="#approach">Materials</a>
           <a href="#about">About</a>
         </nav>
 
@@ -97,13 +89,13 @@
             <p class="eyebrow"><span></span> Mathematical research · Beijing</p>
             <p class="hero-name">Shanmu Jin</p>
             <h1 id="hero-title">
-              Spectral questions,<br />
-              <em>made inspectable.</em>
+              Operator theory and<br />
+              <em>matrix pseudospectra</em>
             </h1>
             <p class="hero-intro">
-              I study operator theory and non-Hermitian spectral phenomena,
-              bringing analysis, numerical experiments, and formal verification
-              into the same line of sight.
+              I work on spectral questions for matrices and non-Hermitian
+              systems. This page links to current manuscripts, source code,
+              computational materials, and documented Lean 4 formalizations.
             </p>
 
             <div class="hero-actions" role="group" aria-label="Profile links">
@@ -132,42 +124,31 @@
             </div>
           </div>
 
-          <aside
-            class="hero-visual"
-            aria-label="Abstract spectral illustration"
-          >
-            <div class="visual-heading">
-              <span>Current focus</span>
-              <span>Operator · spectrum · proof</span>
+          <aside class="research-record" aria-label="Current research record">
+            <div class="record-heading">
+              <span>Current projects</span>
+              <span>2026</span>
             </div>
-
-            <div class="spectral-plane" aria-hidden="true">
-              <div class="plane-axis plane-axis-x"></div>
-              <div class="plane-axis plane-axis-y"></div>
-              <div class="contour contour-outer"></div>
-              <div class="contour contour-middle"></div>
-              <div class="contour contour-inner"></div>
-              <span class="eigenpoint eigenpoint-one"></span>
-              <span class="eigenpoint eigenpoint-two"></span>
-              <span class="eigenpoint eigenpoint-three"></span>
-              <span class="plane-label plane-label-w">W(A)</span>
-              <span class="plane-label plane-label-s">σ(A)</span>
-              <span class="plane-coordinate coordinate-x">Re z</span>
-              <span class="plane-coordinate coordinate-y">Im z</span>
-            </div>
-
-            <div class="visual-formula">
-              <span class="formula-label">A guiding inequality</span>
-              <span
-                class="formula"
-                role="math"
-                aria-label="norm of p of A is at most two times the maximum of the absolute value of p over the numerical range of A"
-              >
-                ‖<i>p</i>(<i>A</i>)‖ ≤ 2 max<sub
-                  ><i>z</i>∈<i>W</i>(<i>A</i>)</sub
-                >
-                |<i>p</i>(<i>z</i>)|
-              </span>
+            <ol class="record-list">
+              <li>
+                <span class="record-number">01</span>
+                <div>
+                  <strong>Crouzeix’s conjecture</strong>
+                  <small>Candidate proof · peer review pending</small>
+                </div>
+              </li>
+              <li>
+                <span class="record-number">02</span>
+                <div>
+                  <strong>Open Hatano–Nelson chain</strong>
+                  <small>Connectedness threshold manuscript</small>
+                </div>
+              </li>
+            </ol>
+            <div class="record-footer">
+              <span>Manuscripts</span>
+              <span>Python</span>
+              <span>Lean 4</span>
             </div>
           </aside>
         </div>
@@ -176,17 +157,17 @@
           <li>
             <span class="method-number">01</span>
             <span>Analysis</span>
-            <small>Exact inequalities</small>
+            <small>Mathematical arguments</small>
           </li>
           <li>
             <span class="method-number">02</span>
             <span>Computation</span>
-            <small>Reproducible experiments</small>
+            <small>Reproducible numerical illustrations</small>
           </li>
           <li>
             <span class="method-number">03</span>
-            <span>Verification</span>
-            <small>Lean 4 audits</small>
+            <span>Formalization</span>
+            <small>Lean 4 sources and axiom audits</small>
           </li>
         </ul>
       </section>
@@ -199,40 +180,49 @@
         <div class="section-heading">
           <div>
             <p class="section-kicker">Selected research</p>
-            <h2 id="research-title">
-              Two problems.<br />One rigorous workflow.
-            </h2>
+            <h2 id="research-title">Current research projects</h2>
           </div>
           <p class="section-lead">
-            Each project pairs a mathematical manuscript with inspectable source
-            material, explicit status notes, and machine-checked components.
+            The entries below state the status and scope of each manuscript and
+            link to source files, computational materials where applicable, and
+            Lean 4 formalization.
           </p>
         </div>
 
         <article class="project project-crouzeix">
           <div class="project-index">
             <span>01 / Operator theory</span>
-            <span class="status status-review">Formal peer review pending</span>
+            <span class="status status-review"
+              >Candidate proof · not peer reviewed</span
+            >
           </div>
 
           <div class="project-grid">
             <div class="project-copy">
-              <h3>The numerical range is a <em>2-spectral set</em></h3>
+              <h3>Crouzeix’s conjecture: <em>a candidate proof</em></h3>
               <p class="project-summary">
-                A candidate proof of Crouzeix’s conjecture: for every complex
-                matrix <i>A</i> and polynomial <i>p</i>, the norm of
-                <i>p</i>(<i>A</i>) is controlled by the maximum of |<i>p</i>|
-                over the numerical range, with the sharp universal constant 2.
+                The manuscript proposes a proof that the numerical range is a
+                2-spectral set for every complex matrix. Peer review is pending.
+                The repository also contains a pinned Lean 4 formalization of
+                the matrix-polynomial statement and an axiom audit.
               </p>
+
+              <div class="formula-block formula-block-crouzeix">
+                <span>Statement proposed in the manuscript</span>
+                <img
+                  src="assets/formula-crouzeix-bound.svg"
+                  alt="The numerical range W of A consists of x star A x over unit vectors x. For every complex n-by-n matrix A and complex polynomial p, the norm of p of A is at most two times the maximum of the absolute value of p over W of A."
+                />
+              </div>
 
               <dl class="project-details">
                 <div>
                   <dt>Artifact</dt>
-                  <dd>Annals-format manuscript</dd>
+                  <dd>LaTeX manuscript</dd>
                 </div>
                 <div>
-                  <dt>Verification</dt>
-                  <dd>59 Lean modules + axiom audit</dd>
+                  <dt>Formalization</dt>
+                  <dd>Lean 4 sources and axiom audit</dd>
                 </div>
                 <div>
                   <dt>Status</dt>
@@ -268,74 +258,132 @@
               </div>
             </div>
 
-            <div class="crouzeix-figure" aria-hidden="true">
-              <div class="figure-note">Numerical range</div>
-              <div class="range-shape range-shape-outer"></div>
-              <div class="range-shape range-shape-inner"></div>
-              <span class="matrix-point matrix-point-one"></span>
-              <span class="matrix-point matrix-point-two"></span>
-              <span class="matrix-point matrix-point-three"></span>
-              <div class="figure-equation">
-                <span>‖p(A)‖</span>
-                <span class="equation-rule"></span>
-                <span>2 max<sub>W(A)</sub> |p|</span>
-              </div>
-              <div class="figure-caption">
-                <span>Crouzeix’s conjecture</span>
-                <span>Constant c = 2</span>
-              </div>
-            </div>
+            <figure class="research-figure crouzeix-research-figure">
+              <img
+                src="assets/crouzeix-sharpness.png"
+                width="1656"
+                height="824"
+                loading="lazy"
+                alt="The numerical range of the two-by-two nilpotent sharpness example is the closed unit disk, with the sole eigenvalue at zero; the displayed equality attains the constant two."
+              />
+              <figcaption>
+                <strong>Sharpness example from the manuscript.</strong>
+                The disk boundary is generated from its exact parametrization at
+                1,201 uniform parameter values; the matrix, polynomial, and
+                equality case are displayed in the figure.
+                <span class="figure-scope"
+                  >Computer Modern labels are rendered by LaTeX.</span
+                >
+                <a
+                  href="https://github.com/jinshanmu/jinshanmu.github.io/blob/main/scripts/generate_research_figures.py"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Python source ↗</a
+                >
+                <a
+                  href="assets/figure-manifest.json"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Parameters ↗</a
+                >
+              </figcaption>
+            </figure>
           </div>
         </article>
 
         <article class="project project-hatano">
           <div class="project-index">
             <span>02 / Pseudospectral analysis</span>
-            <span class="status">J. Phys. A submission</span>
+            <span class="status">Manuscript prepared for J. Phys. A</span>
           </div>
 
           <div class="hatano-grid">
             <figure class="hatano-figure">
               <img
-                src="assets/hatano-connectedness.png"
-                width="1869"
-                height="1174"
+                src="assets/hatano-transition.png"
+                width="1974"
+                height="932"
                 loading="lazy"
-                alt="Five panels showing separate pseudospectral components merging into one connected uncertainty cloud as matrix order increases."
+                alt="Direct singular-value samples show six separated pseudospectral components at matrix order six and one connected component at matrix order seven for a equals one quarter and epsilon equals one hundredth."
               />
               <figcaption>
-                Connectedness transition of the open Hatano–Nelson chain
+                <strong
+                  >Numerical illustration of the connectedness
+                  transition.</strong
+                >
+                Contours are direct float64 singular-value samples on a
+                561-by-361 grid; crosses are exact open-boundary eigenvalues.
+                The computation is not interval-certified, and the illustration
+                is not used as proof of the theorem.
+                <span class="figure-scope"
+                  >Latin Modern labels are rendered by LaTeX.</span
+                >
+                <a
+                  href="https://github.com/jinshanmu/jinshanmu.github.io/blob/main/scripts/generate_research_figures.py"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Python source ↗</a
+                >
+                <a
+                  href="assets/figure-manifest.json"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Parameters ↗</a
+                >
               </figcaption>
             </figure>
 
             <div class="project-copy">
               <h3>
-                Exact connectedness threshold for the
-                <em>Hatano–Nelson chain</em>
+                Connectedness threshold for the
+                <em>open Hatano–Nelson chain</em>
               </h3>
               <p class="project-summary">
-                An exact finite-size criterion for when mode-resolving
-                pseudospectral components merge into a single uncertainty cloud,
-                together with sharp asymptotics governed by the non-Hermitian
-                skin depth.
+                For the tridiagonal matrix family defined below, the manuscript
+                gives a necessary-and-sufficient criterion for connectedness of
+                the Euclidean pseudospectrum. It also proves strict decrease of
+                the barrier, sharp-order bounds, and a fixed-parameter
+                asymptotic for the critical site count.
               </p>
+
+              <div class="formula-block formula-block-definitions">
+                <span>Definitions used in the stated results</span>
+                <img
+                  src="assets/formula-hatano-definitions.svg"
+                  alt="A n of a is tridiagonal with subdiagonal a, zero diagonal, and superdiagonal one, for zero less than a less than one. The epsilon pseudospectrum consists of z where the least singular value of z I minus A n is less than epsilon. Gamma n is the maximum real-axis least-singular-value barrier over the spectral interval."
+                />
+              </div>
 
               <ul class="result-list">
                 <li>
-                  <span>Threshold</span>
-                  <strong>Connected iff ε &gt; γ<sub>n</sub></strong>
+                  <span>Criterion</span>
+                  <img
+                    src="assets/formula-hatano-criterion.svg"
+                    alt="The epsilon pseudospectrum of A n is connected if and only if epsilon is greater than gamma n."
+                  />
                 </li>
                 <li>
-                  <span>Monotonicity</span>
-                  <strong>γ<sub>n+1</sub> &lt; γ<sub>n</sub></strong>
+                  <span>Barrier</span>
+                  <img
+                    src="assets/formula-hatano-monotonicity.svg"
+                    alt="Gamma n plus one is strictly less than gamma n for n at least two."
+                  />
                 </li>
                 <li>
-                  <span>Sharp scale</span>
-                  <strong
-                    >γ<sub>n</sub> ≍<sub>a</sub> (n+1)a<sup>n/2</sup></strong
-                  >
+                  <span>Sharp-order bound</span>
+                  <img
+                    src="assets/formula-hatano-scale.svg"
+                    alt="Gamma n is comparable, with constants depending on a, to n plus one times a to the n over two."
+                  />
                 </li>
               </ul>
+
+              <p class="scope-note">
+                <strong>Formalization scope.</strong> The Lean 4 project covers
+                the labelled mathematical statements in the audited manuscript.
+                Physical interpretation and floating-point figures are outside
+                that formalization scope.
+              </p>
 
               <div class="project-links">
                 <a
@@ -374,36 +422,37 @@
         aria-labelledby="approach-title"
       >
         <div class="approach-intro">
-          <p class="section-kicker section-kicker-light">Working method</p>
+          <p class="section-kicker section-kicker-light">Research materials</p>
           <h2 id="approach-title">
-            A proof should survive<br />
-            <em>more than one kind of scrutiny.</em>
+            Manuscripts, computations,<br />
+            <em>and formalization</em>
           </h2>
         </div>
 
         <div class="approach-grid">
           <article>
             <span class="approach-number">01</span>
-            <h3>Resolve the structure</h3>
+            <h3>Manuscripts</h3>
             <p>
-              Reduce a spectral question to the exact scalar, geometric, or
-              variational mechanism that controls it.
+              State the problem, hypotheses, and argument in versioned LaTeX
+              source, with the current review or submission status identified.
             </p>
           </article>
           <article>
             <span class="approach-number">02</span>
-            <h3>Stress-test the claim</h3>
+            <h3>Computations</h3>
             <p>
-              Pair proofs with numerical experiments, edge cases, and explicit
-              audit documents that expose the fragile steps.
+              Where numerical figures are used, provide the generating scripts,
+              parameters, and numerical method. Floating-point results are
+              identified as illustrations unless separately certified.
             </p>
           </article>
           <article>
             <span class="approach-number">03</span>
-            <h3>Formalize the spine</h3>
+            <h3>Lean 4</h3>
             <p>
-              Translate the theorem’s dependency graph into Lean, with pinned
-              environments and transparent axiom reports.
+              Pin the toolchain, map formalized statements to the manuscript,
+              and publish the corresponding axiom audit with an explicit scope.
             </p>
           </article>
         </div>
@@ -416,20 +465,17 @@
         </div>
 
         <div class="about-copy">
-          <h2 id="about-title">
-            Mathematics at the boundary of
-            <em>analysis, physics, and verification.</em>
-          </h2>
+          <h2 id="about-title">Research interests</h2>
           <p class="about-lead">
             I am Shanmu Jin, affiliated with the Department of Neurosurgery at
             Peking Union Medical College Hospital in Beijing.
           </p>
           <p>
-            My current research centers on operator theory, numerical linear
-            algebra, and non-Hermitian spectral phenomena. I am especially
-            interested in results that can be inspected end to end: the
-            analytical argument, the computational evidence, and the formal
-            dependency structure.
+            My current projects concern operator theory, numerical linear
+            algebra, matrix pseudospectra, and non-Hermitian spectral problems.
+            The repositories on this page provide manuscript sources,
+            computational code where applicable, and Lean 4 formalization
+            materials with documented scope.
           </p>
 
           <div class="about-links">
@@ -461,7 +507,7 @@
     <footer class="site-footer">
       <div>
         <span class="footer-mark">SJ</span>
-        <p>Research, manuscripts, and formal artifacts.</p>
+        <p>Research manuscripts and formalization materials.</p>
       </div>
       <p>© 2026 Shanmu Jin</p>
     </footer>

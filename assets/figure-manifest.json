@@ -1,0 +1,85 @@
+{
+  "crouzeix_sharpness": {
+    "boundary_samples": 1201,
+    "font": "Computer Modern",
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "numerical_range_boundary": "z(theta)=exp(i theta), 0 <= theta <= 2 pi",
+    "polynomial": "p(z)=z",
+    "source": "CrouzeixConjecture/AnnMath/the_numerical_range_is_a_2_spectral_set.tex, equation eq:sharp-example"
+  },
+  "displayed_formulas": {
+    "formula-crouzeix-bound.svg": {
+      "font": "Computer Modern",
+      "tex": "W(A)=\\{x^*Ax:x\\in\\mathbb C^n,\\lVert x\\rVert_2=1\\}; \\lVert p(A)\\rVert\\leq 2\\max_{z\\in W(A)}\\lvert p(z)\\rvert; A\\in\\mathbb C^{n\\times n}; p\\in\\mathbb C[z]"
+    },
+    "formula-hatano-criterion.svg": {
+      "font": "Latin Modern",
+      "tex": "\\sigma_\\varepsilon(A_n)\\ \\text{is connected}\\Longleftrightarrow \\varepsilon>\\gamma_n"
+    },
+    "formula-hatano-definitions.svg": {
+      "font": "Latin Modern",
+      "tex": "A_n(a)=\\operatorname{tridiag}(a,0,1); 0<a<1; n\\geq2; \\varepsilon>0; I_n^{\\mathrm{sp}}=[-2\\sqrt a\\cos(\\pi/(n+1)),2\\sqrt a\\cos(\\pi/(n+1))]; \\sigma_\\varepsilon(A_n)=\\{z\\in\\mathbb C:s_{\\min}(zI_n-A_n)<\\varepsilon\\}; \\gamma_n=\\max_{x\\in I_n^{\\mathrm{sp}}}s_{\\min}(xI_n-A_n)"
+    },
+    "formula-hatano-monotonicity.svg": {
+      "font": "Latin Modern",
+      "tex": "\\gamma_{n+1}<\\gamma_n\\ (n\\geq2)"
+    },
+    "formula-hatano-scale.svg": {
+      "font": "Latin Modern",
+      "tex": "\\gamma_n\\asymp_a(n+1)a^{n/2}"
+    }
+  },
+  "generator": "scripts/generate_research_figures.py",
+  "hatano_nelson_transition": {
+    "a": 0.25,
+    "epsilon": 0.01,
+    "font": "Latin Modern",
+    "gamma_estimates": {
+      "6": {
+        "gamma_estimate": 0.014658290064419701,
+        "maximizing_x_estimate": -8.952781358726317e-11
+      },
+      "7": {
+        "gamma_estimate": 0.007364219026836459,
+        "maximizing_x_estimate": -0.835395483364681
+      }
+    },
+    "gamma_method": "Gapwise scan followed by bounded scalar optimization",
+    "grid": {
+      "imaginary": {
+        "max": 0.3,
+        "min": -0.3,
+        "points": 361
+      },
+      "real": {
+        "max": 1.12,
+        "min": -1.12,
+        "points": 561
+      }
+    },
+    "matrix": "A_n(a)=tridiag(a,0,1)",
+    "method": "Direct float64 SVD of z I_n - A_n(a) at every grid point",
+    "n": [
+      6,
+      7
+    ],
+    "scope_note": "The float64 computations are not interval-certified. The contours and gamma values are numerical illustrations and are not used as proof of the manuscript theorem.",
+    "source": "Hatano-Nelson/JPA/JPA_submission_bundle/exact_connectedness_threshold_hatano_nelson.tex, equations eq:main-definitions and eq:connected-iff-gamma"
+  },
+  "software": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.5",
+    "python": "3.11.14",
+    "scipy": "1.16.3",
+    "text_renderer": "LaTeX via Matplotlib usetex"
+  }
+}
