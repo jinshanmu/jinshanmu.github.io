@@ -138,7 +138,13 @@ def crouzeix_sharpness_figure() -> None:
         ax.set_yticks([-1.0, 0.0, 1.0])
         ax.spines["top"].set_visible(False)
         ax.spines["right"].set_visible(False)
-        ax.legend(loc="upper right", frameon=False)
+        ax.legend(
+            loc="lower center",
+            bbox_to_anchor=(0.5, 1.03),
+            ncol=2,
+            frameon=False,
+            borderaxespad=0.0,
+        )
 
         statement.axis("off")
         statement.text(

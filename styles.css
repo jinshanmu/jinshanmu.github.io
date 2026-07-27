@@ -111,8 +111,7 @@ img {
   text-decoration: none;
 }
 
-.brand-mark,
-.footer-mark {
+.brand-mark {
   display: inline-grid;
   width: 38px;
   height: 38px;
@@ -199,13 +198,6 @@ img {
   width: 34px;
   height: 2px;
   background: var(--coral);
-}
-
-.hero-name {
-  margin: 0 0 8px;
-  font-size: clamp(17px, 1.8vw, 22px);
-  font-weight: 650;
-  letter-spacing: -0.02em;
 }
 
 .hero h1,
@@ -817,24 +809,6 @@ img {
   grid-template-columns: 0.32fr 1fr;
 }
 
-.about-label {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.about-monogram {
-  display: grid;
-  width: 126px;
-  height: 126px;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  place-items: center;
-  font-family: var(--serif);
-  font-size: 44px;
-  font-style: italic;
-}
-
 .about-copy h2 {
   max-width: 940px;
   font-size: clamp(50px, 5.5vw, 84px);
@@ -1170,16 +1144,6 @@ img {
     padding: 100px 0;
     gap: 38px;
     grid-template-columns: 1fr;
-  }
-
-  .about-label {
-    flex-direction: row;
-  }
-
-  .about-monogram {
-    width: 70px;
-    height: 70px;
-    font-size: 25px;
   }
 
   .about-copy h2 {
